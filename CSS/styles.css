@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.section-left{
+    width: 70%;
+}
+
+.section-right{
+    width: 30%;
+}
