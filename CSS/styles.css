@@ -16,21 +16,39 @@ main{
     display: flex;
 }
 
+section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+}
+
 .section-left{
-    width: 70%;
-    height: 800px;
     display: flex;
     flex-direction: column;
+    align-content: space-between;
+    width: 60%;
+    height: 600px;
+    border: 2px solid #888898; 
 }
 
 .divs-section-left{
-    flex: 1;
+    width: 100%;
+    height: 78%;
 }
 
 .buttons{
-
+    height: 20%; 
 }
 
 .section-right{
-    width: 30%;
+    width: 40%;
+    height: 600px;
+    border: 2px solid #888898;
+    border-radius: 10px;
+}
+
+.section-right div{
+    flex: 1;
 }
