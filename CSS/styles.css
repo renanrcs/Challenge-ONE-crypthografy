@@ -2,6 +2,14 @@ body{
     margin: 0;
 }
 
+header{
+    height: 100px;
+}
+
+header img{
+    padding-top: 20px;
+}
+
 main{
     width: 80%;
     margin: 0 auto;
@@ -10,6 +18,17 @@ main{
 
 .section-left{
     width: 70%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+.divs-section-left{
+    flex: 1;
+}
+
+.buttons{
+
 }
 
 .section-right{
