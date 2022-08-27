@@ -6,13 +6,18 @@ window.addEventListener('load', function() {
          
          //Atribuindo valor da tag textarea para a tag <p>
          document.querySelector('#text-result').innerHTML = trocarLetras(textarea);
+
+         document.getElementById('hide-content').style.display = "none";
          
         });
         
     document.getElementById("decrypt").addEventListener('click', () => {
         let textarea2 = document.querySelector('#text-encrypt').value.toLowerCase();
       console.log(textarea2);
+      
         document.getElementById("text-result").innerHTML = descriptografar(textarea2);
+
+        document.getElementById('hide-content').style.display = "none";
 
       });
 
@@ -24,6 +29,7 @@ window.addEventListener('load', function() {
       document.querySelector("#second-btn-clear").addEventListener('click', () => {
 
           document.getElementById("text-result").innerText = "";
+          this.document.getElementById("hide-content").style.display = "block"
       });
 
       document.getElementById("button-copy").addEventListener('click', function(){
@@ -36,7 +42,6 @@ window.addEventListener('load', function() {
       });
 
 });
-
 
 function trocarLetras(word){
  var count = 0;

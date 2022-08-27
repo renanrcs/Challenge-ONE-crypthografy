@@ -88,6 +88,14 @@ button{
     flex: 1;
 }
 
+#text-result{
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    letter-spacing: 2px;
+    word-break: break-all;
+}
+
 /* RESPONSIVO */
 
 @media  (max-width: 399px){
