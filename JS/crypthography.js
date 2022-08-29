@@ -35,8 +35,6 @@ window.addEventListener('load', function() {
       document.getElementById("button-copy").addEventListener('click', function(){
         var textCopy = document.getElementById("text-result").innerText;
         
-        // textCopy.select();
-        // textCopy.setSelectionRange(0, 99999);
         navigator.clipboard.writeText(textCopy);
         alert("Copiado");
       });
